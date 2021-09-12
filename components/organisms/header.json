@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_organisms_headers",
+  "info": {
+    "name": "Header",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "logotype": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "mail": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

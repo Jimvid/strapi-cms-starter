@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_links",
+  "info": {
+    "name": "link",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "maxLength": 50,
+      "required": true,
+      "minLength": 5,
+      "default": "Read more"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    }
+  }
+}

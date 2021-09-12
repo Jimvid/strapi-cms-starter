@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_startpage_cards",
+  "info": {
+    "name": "Card",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.link"
+    }
+  }
+}

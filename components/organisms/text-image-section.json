@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_content_text_image_sections",
+  "collectionName": "components_content_text_sections",
   "info": {
     "name": "TextSection",
     "icon": "address-card",
@@ -29,7 +29,7 @@
     },
     "link": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "atoms.link"
     }
   }

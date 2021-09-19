@@ -42,7 +42,24 @@
         }
       }
     },
-    "body": {
+    "inMenu": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean"
+    },
+    "menuOrder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "default": 1
+    },
+    "dynamicZone": {
       "type": "dynamiczone",
       "components": [
         "organisms.text-image-section"

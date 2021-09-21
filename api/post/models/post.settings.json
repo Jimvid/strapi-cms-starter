@@ -18,10 +18,21 @@
       "component": "shared.seo"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "text": {
-      "type": "richtext"
+    "slug": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
+    },
+    "shortText": {
+      "type": "richtext",
+      "required": true
     },
     "image": {
       "model": "file",
@@ -34,6 +45,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "longText": {
+      "type": "richtext"
     }
   }
 }

@@ -32,7 +32,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "slug": {
       "type": "string",
@@ -40,7 +41,8 @@
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "required": true
     },
     "inMenu": {
       "pluginOptions": {
@@ -62,7 +64,8 @@
     "dynamicZone": {
       "type": "dynamiczone",
       "components": [
-        "organisms.text-image-section"
+        "organisms.text-image-section",
+        "organisms.postlist"
       ],
       "pluginOptions": {
         "i18n": {

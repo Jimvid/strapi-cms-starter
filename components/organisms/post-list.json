@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_organisms_post_lists",
+  "info": {
+    "name": "postList",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "posts": {
+      "collection": "post"
+    }
+  }
+}

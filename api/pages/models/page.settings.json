@@ -62,16 +62,16 @@
       "default": 1
     },
     "dynamicZone": {
-      "type": "dynamiczone",
-      "components": [
-        "organisms.text-image-section",
-        "organisms.postlist"
-      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "organisms.text-image-section",
+        "organisms.post-list"
+      ]
     }
   }
 }

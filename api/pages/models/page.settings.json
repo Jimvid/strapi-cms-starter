@@ -70,7 +70,8 @@
       "type": "dynamiczone",
       "components": [
         "organisms.text-image-section",
-        "organisms.post-list"
+        "organisms.post-list",
+        "organisms.card-list"
       ]
     }
   }

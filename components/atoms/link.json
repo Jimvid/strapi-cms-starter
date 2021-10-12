@@ -7,13 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "label": {
-      "type": "string",
-      "maxLength": 50,
-      "required": true,
-      "minLength": 5,
-      "default": "Read more"
-    },
     "url": {
       "type": "string",
       "required": true,

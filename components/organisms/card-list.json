@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_organisms_card_lists",
+  "info": {
+    "name": "cardList",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "molecules.card"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_molecules_accordions",
+  "info": {
+    "name": "accordion",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 1000
+    }
+  }
+}

@@ -42,7 +42,7 @@
           "localized": false
         }
       },
-      "required": true
+      "required": false
     },
     "inMenu": {
       "pluginOptions": {
@@ -71,7 +71,9 @@
       "components": [
         "organisms.text-image-section",
         "organisms.post-list",
-        "organisms.card-list"
+        "organisms.card-list",
+        "organisms.contact",
+        "organisms.accordion-list"
       ]
     }
   }

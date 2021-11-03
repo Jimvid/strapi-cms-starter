@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_organisms_accordion_lists",
+  "info": {
+    "name": "accordionList",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "accordions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "molecules.accordion"
+    }
+  }
+}

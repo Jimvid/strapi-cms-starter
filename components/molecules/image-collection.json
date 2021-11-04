@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_molecules_image_collections",
+  "info": {
+    "name": "imageCollections",
+    "icon": "barcode",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

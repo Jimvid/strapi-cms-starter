@@ -73,7 +73,8 @@
         "organisms.post-list",
         "organisms.card-list",
         "organisms.contact",
-        "organisms.accordion-list"
+        "organisms.accordion-list",
+        "organisms.gallery"
       ]
     }
   }

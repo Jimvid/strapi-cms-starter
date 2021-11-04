@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_organisms_galleries",
+  "info": {
+    "name": "gallery",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageCollections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "molecules.image-collection"
+    }
+  }
+}

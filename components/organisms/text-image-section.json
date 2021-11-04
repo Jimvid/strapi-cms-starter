@@ -35,6 +35,10 @@
     "reversed": {
       "type": "boolean",
       "default": false
+    },
+    "wide": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

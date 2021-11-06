@@ -15,6 +15,7 @@
     "knex": "0.21.18",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
+    "semver": "^7.3.5",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
@@ -34,8 +35,8 @@
     "uuid": "c2db4a3b-5664-4c25-a355-3d883a947359"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": "14.x.x",
+    "npm": "^6.x"
   },
   "license": "MIT"
 }

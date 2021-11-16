@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_organisms_featured_text_sections",
+  "info": {
+    "name": "featuredTextSection",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.link",
+      "required": true
+    }
+  }
+}

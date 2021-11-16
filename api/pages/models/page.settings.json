@@ -74,7 +74,8 @@
         "organisms.card-list",
         "organisms.contact",
         "organisms.accordion-list",
-        "organisms.gallery"
+        "organisms.gallery",
+        "organisms.featured-text-section"
       ]
     }
   }

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_molecules_ratings",
+  "info": {
+    "name": "rating",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "required": true,
+      "type": "richtext"
+    },
+    "from": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "default": "Bad",
+      "minLength": 1
+    },
+    "to": {
+      "type": "string",
+      "default": "Good",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 1
+    },
+    "rating": {
+      "type": "integer",
+      "max": 5,
+      "min": 1,
+      "required": true
+    }
+  }
+}

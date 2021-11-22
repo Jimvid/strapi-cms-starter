@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_organisms_rating",
+  "collectionName": "components_organisms_ratings",
   "info": {
     "name": "Rating",
     "icon": "angle-double-up",
@@ -10,10 +10,10 @@
     "title": {
       "type": "string"
     },
-    "rating": {
+    "ratings": {
       "type": "component",
-      "repeatable": false,
-      "component": "molecules.scale"
+      "repeatable": true,
+      "component": "molecules.rating"
     }
   }
 }

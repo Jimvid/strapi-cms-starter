@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_organisms_card_lists",
+  "collectionName": "components_organisms_card_list",
   "info": {
-    "name": "cardList",
+    "name": "CardList",
     "icon": "border-all",
     "description": ""
   },

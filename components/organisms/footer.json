@@ -1,7 +1,7 @@
 {
   "collectionName": "components_organisms_footers",
   "info": {
-    "name": "footer",
+    "name": "Footer",
     "icon": "align-justify"
   },
   "options": {},
@@ -15,11 +15,7 @@
     "logotype": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+      "allowedTypes": ["images", "files", "videos"],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}

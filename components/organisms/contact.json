@@ -1,7 +1,7 @@
 {
   "collectionName": "components_organisms_contacts",
   "info": {
-    "name": "contact",
+    "name": "Contact",
     "icon": "id-card",
     "description": ""
   },
@@ -22,11 +22,7 @@
     "image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+      "allowedTypes": ["images", "files", "videos"],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}

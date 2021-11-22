@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_organisms_rating",
+  "info": {
+    "name": "Rating",
+    "icon": "angle-double-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.scale"
+    }
+  }
+}

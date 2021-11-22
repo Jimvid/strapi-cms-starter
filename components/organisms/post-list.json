@@ -1,7 +1,7 @@
 {
   "collectionName": "components_organisms_post_lists",
   "info": {
-    "name": "postList",
+    "name": "PostList",
     "icon": "address-book",
     "description": ""
   },

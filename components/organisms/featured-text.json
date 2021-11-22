@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_organisms_featured_text_sections",
+  "collectionName": "components_organisms_featured_text",
   "info": {
-    "name": "featuredTextSection",
+    "name": "FeaturedText",
     "icon": "american-sign-language-interpreting"
   },
   "options": {},

@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_organisms_accordion_lists",
+  "collectionName": "components_organisms_accordion_list",
   "info": {
-    "name": "accordionList",
+    "name": "AccordionList",
     "icon": "bars",
     "description": ""
   },

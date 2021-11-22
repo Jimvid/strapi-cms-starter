@@ -1,7 +1,7 @@
 {
   "collectionName": "components_content_text_sections",
   "info": {
-    "name": "TextSection",
+    "name": "Text",
     "icon": "address-card",
     "description": ""
   },
@@ -18,11 +18,7 @@
     "image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+      "allowedTypes": ["images", "files", "videos"],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}

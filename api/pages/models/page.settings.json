@@ -69,14 +69,14 @@
       },
       "type": "dynamiczone",
       "components": [
-        "organisms.text",
         "organisms.post-list",
         "organisms.card-list",
         "organisms.contact",
         "organisms.accordion-list",
         "organisms.gallery",
         "organisms.featured-text",
-        "organisms.rating"
+        "organisms.rating",
+        "organisms.text"
       ]
     }
   }

@@ -15,14 +15,6 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": ["images", "files", "videos"],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "link": {
       "type": "component",
       "repeatable": false,
@@ -35,6 +27,11 @@
     "wide": {
       "type": "boolean",
       "default": false
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.image"
     }
   }
 }

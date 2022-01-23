@@ -34,13 +34,12 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
-      "type": "component",
-      "repeatable": false,
-      "component": "atoms.image"
-    },
-    "longText": {
-      "type": "richtext"
+    "dynamicZone": {
+      "type": "dynamiczone",
+      "components": [
+        "organisms.gallery",
+        "organisms.text"
+      ]
     }
   }
 }
